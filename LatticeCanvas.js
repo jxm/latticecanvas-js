@@ -101,7 +101,6 @@ class LatticeCanvas {
         } else {
             y = row*sp.rowHeight+(cofactor)*sp.rowHeight;
         }
-        console.log("row: "+row);
         //TODO stage, row, and offset params should be in one argument as an array
         var p = new LatticeCanvasPoint(this, stage, x, y, orientation, row, offset);
         return p;
